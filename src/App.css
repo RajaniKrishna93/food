@@ -1,0 +1,71 @@
+body{
+  background-image: url("./assets/images/food-background.jpg");
+  /* overflow: visible; */
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+}
+.main-container {
+ 
+  overflow: visible;
+  background-size: contain;
+  /* background-repeat: no-repeat; */
+  background-position: 57% 5%;
+ 
+}
+.item-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 50px;
+}
+.item-container {
+  width: 30%;
+  margin: 2%;
+  align-items: center;
+}
+.item-container img {
+  width: 500px;
+  height: 300px;
+}
+#head{
+  text-align: center;
+}button{
+  align-items: right;
+}
+#one{
+  font-size: 1.7rem;
+}
+#two{
+  font-size: 1.4rem;
+  color: brown;
+}
+#three{
+  font-size: 1.5rem;
+  color: darkblue;
+}
+#four{
+  font-size: 1rem;
+  color: black;
+  padding: 5px;
+
+}
+.search-container{
+  text-align: center;
+}
+#heading{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5px;
+  padding-bottom: 20px;
+}
+.order-now-button{
+
+  background-color: rgb(220, 65, 155);
+  
+
+}
+
